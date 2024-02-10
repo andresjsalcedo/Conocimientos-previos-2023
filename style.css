@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+*{
+  font-family: 'Protest Guerrilla', sans-serif;
+}
  .Title{
   color: white;
 }
 .Contenedor-titulo-sub-titulo{
+  border: 3px solid;
+  box-shadow: 10px 10px 15px rgb(240, 0, 0);
+  margin: 10px;
   background-color: rgb(0, 0, 0);
   margin: 10px;
   text-align: center;
   border-radius: 5rem;
   border: black;
   padding: 5px 10px 5px;
+
 }
 .temas-sub-title{
   color: white;
@@ -52,11 +61,14 @@ color: rgb(25, 229, 10);
     justify-content: space-around;
 }
 .detalles-contendor{
+  border: 3px solid;
+  box-shadow: 10px 10px 15px rgb(240, 0, 0);
+  margin: 10px;
   padding: 1.5rem;
   flex: 1;
   border-radius: 1rem;
   border: rgb(93, 92, 92) 0.1rem solid;
-  border-color: rgb(255, 255, 255);
+  border-color: rgb(240, 0, 0);
   text-align: center;
   background-color: rgb(0, 0, 0);
 }
@@ -99,6 +111,9 @@ color: rgb(25, 229, 10);
   }
 
   .contenido-html{
+    border: 3px solid;
+    box-shadow: 10px 10px 15px rgb(240, 0, 0);
+    margin: 10px;
     background-color: rgb(233, 231, 231);
     margin: 10px;
     text-align: center;
